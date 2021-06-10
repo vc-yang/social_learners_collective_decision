@@ -3,7 +3,7 @@ This repository contains code for paper "When do Social Learners Affect Collecti
 
 The paper related to this repository can be found on arXiv: [https://arxiv.org/abs/2104.00770](https://arxiv.org/abs/2104.00770). The code in this repository is written in Python 3, and was last successfully ran in June 2021 using Python 3.7 in Jupyter Labs. Authored by Vicky Chuqiao Yang and Harvey McGuinness. Last updated in June 2021. 
 
-`Well-mixed model solve odes.ipynb` simulates the baseline model described the paper. It runs the differential equation system in the paper and performs analysis of the fixed points and their stability. 
+`baseline_model.ipynb` analyzs the baseline model described the paper. It runs the differential equation system in the paper and performs analysis of the fixed points and their stability. This script produces Fig 2 of the main text, and Fig S1 of the supplement. 
 
 `my_functions.ipynb` contains core functions which are called for in multiple scripts. These functions are: 
 
