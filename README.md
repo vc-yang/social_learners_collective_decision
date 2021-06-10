@@ -5,10 +5,11 @@ The paper related to this repository can be found on arXiv: [https://arxiv.org/a
 
 `baseline_model.ipynb` analyzs the baseline model described the paper. It runs the differential equation system in the paper and performs analysis of the fixed points and their stability. This script produces Fig 2 of the main text, and Fig S1 of the supplement. 
 
-`my_functions.ipynb` contains core functions which are called for in multiple scripts. These functions are: 
+`spectrum_extension.ipynb` simulates the extension of the model where each individual is on a spectrum of social and individual learning (SM 5.1). 
+
+`my_functions.ipynb` contains core functions which are called for in multiple scripts.
 
 `Two-D grid simulation.ipynb` models a network of nodes via the creation of two matrices. Matrix A corresponds to the opinion state of each node, while Matrix B corresponds to the learning behaviour each node on the network uses (i.e. individual vs social). Matrix A updates to reflect changes in opinion at each time step, while Matrix B is static. Individual learners update from opinion X to Y with a probability m at each time step, while they update from Y to X with probability 1-m. Social learners index the opinion of their four neighbors on the network, then update based upon the proportion of their neighbors holding opinion 0. Updating ceases once the network converges, which is defined via the checkConverge function.
 
-`Gradient learner model.ipynb` simulates the extension of the model where each individual is on a spectrum of social and individual learning. 
 
 `Well mixed model with strength.ipynb` simulates the opinion strength extension, which considers individual learners can hold opinions $X$ and $Y$ with different strength or "stubborness". 
