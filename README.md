@@ -1,5 +1,5 @@
-# Repository for "When do Social Learners Affect Collective Performance Negatively? The Predictions of a Dynamical-System Model"
-This repository contains code for paper "When do Social Learners Affect Collective Performance Negatively? The Predictions of a Dynamical-System Model"
+# Repository for "Dynamical-System Model Predicts When Social Learners Impair Collective Performance"
+This repository contains code for paper "Dynamical-System Model Predicts When Social Learners Impair Collective Performance"
 
 The paper related to this repository can be found on arXiv: [https://arxiv.org/abs/2104.00770](https://arxiv.org/abs/2104.00770). The code in this repository is written in Python 3, and was last successfully ran in June 2021 using Python 3.7 in Jupyter Labs. Authored by Vicky Chuqiao Yang and Harvey McGuinness. Last updated in June 2021. 
 
